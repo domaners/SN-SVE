@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Classes that are excluded from mapping against a given Service Instance.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_899160_sve.excluded_ci_classes</name>
+        <read_roles>x_899160_sve.admin,x_899160_sve.user</read_roles>
+        <suffix>excluded_ci_classes</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-07 12:56:03</sys_created_on>
+        <sys_id>72600e6fc32532103aec7fd1b4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_899160_sve.excluded_ci_classes</sys_name>
+        <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
+        <sys_update_name>sys_properties_72600e6fc32532103aec7fd1b4013139</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-07 12:56:03</sys_updated_on>
+        <type>string</type>
+        <value>cmdb_ci_endpoint_manual,cmdb_ci_service_discovered</value>
+        <write_roles>x_899160_sve.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=72600e6fc32532103aec7fd1b4013139"/>
+</record_update>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_899160_sve.ScheduledUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ScheduledUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ScheduledUtils = Class.create();
+ScheduledUtils.prototype = {
+    
+	mappedCIArr: [],
+
+	initialize: function() {
+    },
+
+	scanRegisteredApps: function() {
+
+		var regAppGr = new GlideRecord("x_899160_sve_registered_app");
+		regAppGr.addQuery("active", true);
+		regAppGr.query();
+
+		while(regAppGr.next()) {
+
+			if(regAppGr.ci_retrieval_method == "assoc") {
+				this.retrieveMappedCIsAssoc(regAppGr);
+			} else if (regApp.ci_retrieval_method == "traverse") {
+				this.retrieveMappedCIsTraverse(regAppGr);
+			}
+
+			gs.info("AND obj count " + this.mappedCIArr.length + ":\n\n" + JSON.stringify(this.mappedCIArr));
+			this.createOrUpdateMappedCIs();
+
+			regAppGr.last_scan = new GlideDateTime();
+			regAppGr.update();
+		}
+
+	},
+
+	retrieveMappedCIsAssoc: function(regApp) {
+		
+		var excludedCIClasses = gs.getProperty("x_899160_sve.excluded_ci_classes");
+		var inScopeOperationalStates = gs.getProperty("x_899160_sve.in_scope_operational_states");
+		var lastDiscovered = new GlideDateTime();
+		this.mappedCIArr = [];
+
+		var assocGr = new GlideRecord("svc_ci_assoc");
+		assocGr.addQuery("ci_id.sys_class_name", "NOT IN", excludedCIClasses);
+		assocGr.addQuery("service_id", regApp.service_instance+'');
+		assocGr.query();
+
+		while(assocGr.next()) {
+			this.mappedCIArr.push({
+				"ci": assocGr.ci_id+'',
+				"service_instance": regApp.service_instance+'',
+				"registered_app": regApp.sys_id+'',
+				"depth": 1,
+				"active": inScopeOperationalStates.indexOf(assocGr.ci_id.operational_status.toString()) > -1,
+				"last_discovered": lastDiscovered
+			});
+		}
+
+	},
+
+	retrieveMappedCIsTraverse: function(regApp) {
+		gs.info("Retrieve apps via traverse" + regApp.getDisplayValue("service_instance"));
+	},
+
+	createOrUpdateMappedCIs: function() {
+
+		for(var mKey in this.mappedCIArr) {
+
+			var mappedCIGr = new GlideRecord("x_899160_sve_mapped_ci");
+			mappedCIGr.addQuery("ci", this.mappedCIArr[mKey].ci);
+			mappedCIGr.addQuery("registered_app", this.mappedCIArr[mKey].registered_app);
+			mappedCIGr.query();
+
+			if (mappedCIGr.next()) {
+				mappedCIGr.active = this.mappedCIArr[mKey].active;
+				mappedCIGr.last_discovered = this.mappedCIArr[mKey].last_discovered+'';
+				mappedCIGr.depth = this.mappedCIArr[mKey].depth+'';
+				mappedCIGr.update();
+			} else {
+				mappedCIGr.initialize();
+				mappedCIGr.ci = this.mappedCIArr[mKey].ci;
+				mappedCIGr.service_instance = this.mappedCIArr[mKey].service_instance;
+				mappedCIGr.registered_app = this.mappedCIArr[mKey].registered_app;
+				mappedCIGr.depth = this.mappedCIArr[mKey].depth;
+				mappedCIGr.active = this.mappedCIArr[mKey].active;
+				mappedCIGr.last_discovered = this.mappedCIArr[mKey].last_discovered;
+				mappedCIGr.insert();
+			}
+
+
+		}
+
+	},
+
+    type: 'ScheduledUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-07 12:40:15</sys_created_on>
+        <sys_id>fdec75ebc32532103aec7fd1b4013159</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ScheduledUtils</sys_name>
+        <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
+        <sys_update_name>sys_script_include_fdec75ebc32532103aec7fd1b4013159</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-07 13:09:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

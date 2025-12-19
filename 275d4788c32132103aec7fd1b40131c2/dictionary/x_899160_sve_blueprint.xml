@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="34194ae3c3a532103aec7fd1b4013115" label="Blueprint" max_length="40" name="x_899160_sve_blueprint" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

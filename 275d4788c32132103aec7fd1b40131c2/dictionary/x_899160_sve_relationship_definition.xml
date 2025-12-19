@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="094a02a7c3a532103aec7fd1b40131a7" label="Relationship Definition" max_length="40" name="x_899160_sve_relationship_definition" type="collection">
+        <element label="Include child classes (Parent)" max_length="255" name="include_child_classes_parent" type="boolean"/>
+        <element label="Parent CI Class" max_length="32" name="parent_ci_class" reference="sys_db_object" reference_qual="nameSTARTSWITHcmdb_ci" reference_qual_condition="nameSTARTSWITHcmdb_ci" type="reference"/>
+        <element label="Include child classes (child)" max_length="40" name="include_child_classes_child" type="boolean"/>
+        <element label="Child CI Class" max_length="32" name="child_ci_class" reference="sys_db_object" reference_qual="nameSTARTSWITHcmdb_ci" reference_qual_condition="nameSTARTSWITHcmdb_ci" type="reference"/>
+        <element label="Blueprint" max_length="32" name="blueprint" reference="x_899160_sve_blueprint" type="reference"/>
+        <index name="index">
+            <element name="blueprint"/>
+        </index>
+        <index name="index2">
+            <element name="child_ci_class"/>
+        </index>
+        <index name="index3">
+            <element name="parent_ci_class"/>
+        </index>
+    </element>
+</database>

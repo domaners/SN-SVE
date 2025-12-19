@@ -6,6 +6,7 @@
         <element label="Last validated" max_length="40" name="last_validated" type="glide_date_time"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Business Application" max_length="32" name="business_application" reference="cmdb_ci_business_app" type="reference"/>
+        <element label="Registered App" max_length="32" name="registered_app" reference="x_899160_sve_registered_app" type="reference"/>
         <element label="Service Instance" max_length="32" name="service_instance" reference="cmdb_ci_service_auto" type="reference"/>
         <index name="index">
             <element name="business_application"/>
@@ -14,6 +15,9 @@
             <element name="ci"/>
         </index>
         <index name="index3">
+            <element name="registered_app"/>
+        </index>
+        <index name="index4">
             <element name="service_instance"/>
         </index>
     </element>
