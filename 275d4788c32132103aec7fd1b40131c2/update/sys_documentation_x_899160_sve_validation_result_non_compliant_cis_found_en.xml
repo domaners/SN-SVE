@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="parent_ci_class" label="Parent CI Class" language="en" table="x_899160_sve_relationship_definition">
+    <sys_documentation element="non_compliant_cis_found" label="Non-compliant CIs found" language="en" table="x_899160_sve_validation_result">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>parent_ci_class</element>
+            <element>non_compliant_cis_found</element>
             <help/>
             <hint/>
-            <label>Parent CI Class</label>
+            <label>Non-compliant CIs found</label>
             <language>en</language>
-            <name>x_899160_sve_relationship_definition</name>
+            <name>x_899160_sve_validation_result</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-07 13:41:53</sys_created_on>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_name>Parent CI Class</sys_name>
+            <sys_created_on>2025-12-22 14:32:50</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Non-compliant CIs found</sys_name>
             <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
             <sys_policy/>
             <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
-            <sys_update_name>sys_documentation_x_899160_sve_relationship_definition_parent_ci_class_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_899160_sve_validation_result_non_compliant_cis_found_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:13:34</sys_updated_on>
+            <sys_updated_on>2025-12-22 14:32:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

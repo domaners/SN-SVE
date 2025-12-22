@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">637bff54c34272103aec7fd1b40131f4</canvas>
+        <component display_value="List">7ff373544303121093711347efb8f23c</component>
+        <component_props>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGVpbmNpZGVudDE3MzYzNjA0MzU5NjM=","id":"ZEdGaWJHVnBibU5wWkdWdWRERTNNell6TmpBME16VTVOak09MTczNjM2MDQzNjgwMQ==","numberFormat":{"customFormat":false}}],"showHeader":true,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"limit":10,"columnLimit":0,"maxCharLimit":40,"columnPreferenceKey":"","showPersonalization":false,"hideDotwalk":false,"showColumnReorder":true,"showColumnGrouping":true,"showColumnResizing":true,"showColumnFiltering":false,"showColumnSorting":true,"parFilter":"","allowAdditionalGroupByPerMetric":false,"groupBy":[],"sortBy":null,"sortByOrder":"desc","followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"componentId":"crcyh7f0","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","filterConfigurations":"@state.parFilters","columns":null,"table":"x_899160_sve_validation_result","showLinks":true,"wrapCellContent":"useLineBreaksUserPref","showViewAll":false,"showInlineEditing":true,"allowListPagination":true,"showBorder":true,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Validation Result","sourceType":"table","tableOrViewName":"x_899160_sve_validation_result","filterQuery":"mapped_ci.registered_app=2beab1e7c32532103aec7fd1b401316c","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzg5OTE2MF9zdmVfdmFsaWRhdGlvbl9yZXN1bHQxNzY2NDE5OTI0NDY3","dataCategories":["trend","group","simple"]}],"bareBorder":false,"additionalGroupByConfig":[],"showAdditionalGroupBySelector":false}</component_props>
+        <h>20</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-22 16:12:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>208d7f98c34272103aec7fd1b40131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
+        <sys_update_name>par_dashboard_widget_208d7f98c34272103aec7fd1b40131ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-22 16:12:47</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>19</y>
+    </par_dashboard_widget>
+</record_update>
