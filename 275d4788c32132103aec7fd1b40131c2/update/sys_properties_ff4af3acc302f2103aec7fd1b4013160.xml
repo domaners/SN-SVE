@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Fallback assignment group for remediation tasks if another group based on configured logic cannot be found.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_899160_sve.default_task_assignment_group</name>
+        <read_roles/>
+        <suffix>default_task_assignment_group</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-23 10:39:37</sys_created_on>
+        <sys_id>ff4af3acc302f2103aec7fd1b4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_899160_sve.default_task_assignment_group</sys_name>
+        <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
+        <sys_update_name>sys_properties_ff4af3acc302f2103aec7fd1b4013160</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-23 10:39:37</sys_updated_on>
+        <type>string</type>
+        <value>d625dccec0a8016700a222a0f7900d06</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff4af3acc302f2103aec7fd1b4013160"/>
+</record_update>

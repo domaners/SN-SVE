@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="094a02a7c3a532103aec7fd1b40131a7" label="Relationship Definition" max_length="40" name="x_899160_sve_relationship_definition" type="collection">
+        <element label="Create tasks" max_length="40" name="create_tasks" type="boolean"/>
         <element label="Include child classes (Parent)" max_length="255" name="include_child_classes_parent" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Assignment strategy" max_length="40" name="assignment_strategy" type="string">
+            <choice>
+                <element inactive_on_update="false" label="One task for all CIs and services" sequence="300" value="one_task_all"/>
+                <element inactive_on_update="false" label="One task per CI" sequence="100" value="per_ci"/>
+                <element inactive_on_update="false" label="One task per Application Service" sequence="200" value="per_service"/>
+            </choice>
+        </element>
         <element display="true" label="Parent CI Class" max_length="32" name="parent_ci_class" reference="sys_db_object" reference_qual="nameSTARTSWITHcmdb_ci" reference_qual_condition="nameSTARTSWITHcmdb_ci" type="reference"/>
         <element label="Include child classes (child)" max_length="40" name="include_child_classes_child" type="boolean"/>
         <element label="Active" max_length="40" name="active" type="boolean"/>

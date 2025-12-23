@@ -107,9 +107,53 @@ ScheduledUtils.prototype = {
 
             this.generateValidationResult(mappedCIGr, relDefinitionsGr, cisOfDefinedChildClass, cisOfUndefinedChildClass, passBlueprintCheck);
 
+			if(passBlueprintCheck == "fail" && relDefinitionsGr.create_tasks == true)
+				this.generateRemediationTasks(mappedCIGr, relDefinitionsGr);
+
         }
 
     },
+
+	generateRemediationTasks: function(mappedCIGr, relDefinitionsGr) {
+		
+		var createTask = false;
+		var remediationTaskTable = gs.getProperty("remediation_task_table");
+		var defaultTaskAssignmentGroup = gs.getProperty("x_899160_sve.default_task_assignment_group");
+
+		if(remediationTaskTable == "")
+			remediationTaskTable = "task";
+		
+		var affectedCIGr = new GlideAggregate("task_ci");
+		affectedCIGr.addQuery("task.active", true);
+		affectedCIGr.addQuery("task.sys_class_name", remediationTaskTable);
+		affectedCIGr.addQuery("ci_item", mappedCIGr.ci+'');
+		affectedCIGr.addAggregate("COUNT");
+		affectedCIGr.query();
+		affectedCIGr.next();
+		if(affectedCIGr.getAggregate("COUNT") == 0)
+			createTask = true;
+
+		if(createTask) {
+			var remTaskGr = new GlideRecord(remediationTaskTable);
+			remTaskGr.initialize();
+			remTaskGr.short_description = "SVE Remediation: " + relDefinitionsGr.getDisplayValue("blueprint") + " - " + relDefinitionsGr.getDisplayValue("parent_ci_class");
+			remTaskGr.description = "SVE Remediation: " + relDefinitionsGr.getDisplayValue("blueprint") + " - " + relDefinitionsGr.getDisplayValue("parent_ci_class");
+			remTaskGr.assignment_group = defaultTaskAssignmentGroup; // STUB: Needs proper assignment
+			var taskID = remTaskGr.insert();
+
+			var taskCI = new GlideRecord("task_ci");
+			taskCI.initialize();
+			taskCI.ci_item = mappedCIGr.ci+'';
+			taskCI.task = taskID;
+			taskCI.insert();
+
+			var impactedService = new GlideRecord("task_cmdb_ci_service");
+			impactedService.initialize();
+			impactedService.task = taskID;
+			impactedService.cmdb_ci_service = mappedCIGr.service_instance+'';
+			impactedService.insert();
+		}
+	},
 
 	generateValidationResult: function(mappedCIGr, relDefinitionsGr, cisOfDefinedChildClass, cisOfUndefinedChildClass, passBlueprintCheck) {
 
@@ -190,13 +234,13 @@ ScheduledUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-07 12:40:15</sys_created_on>
         <sys_id>fdec75ebc32532103aec7fd1b4013159</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>ScheduledUtils</sys_name>
         <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
         <sys_update_name>sys_script_include_fdec75ebc32532103aec7fd1b4013159</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-22 15:43:47</sys_updated_on>
+        <sys_updated_on>2025-12-23 10:58:29</sys_updated_on>
     </sys_script_include>
 </record_update>

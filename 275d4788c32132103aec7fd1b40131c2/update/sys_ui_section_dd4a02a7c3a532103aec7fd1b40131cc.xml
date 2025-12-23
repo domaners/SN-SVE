@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>6207bb1cc30272103aec7fd1b4013120</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>f2103728c3ceb2103aec7fd1b40131c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>parent_ci_class</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>aa07bb1cc30272103aec7fd1b4013139</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>be103728c3ceb2103aec7fd1b40131c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>include_child_classes_parent</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>6607bb1cc30272103aec7fd1b401313a</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>7a103728c3ceb2103aec7fd1b40131c3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>child_ci_class</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>2207bb1cc30272103aec7fd1b401313b</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>36103728c3ceb2103aec7fd1b40131c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>ea07bb1cc30272103aec7fd1b401313b</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>fe103728c3ceb2103aec7fd1b40131c4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>blueprint</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>a607bb1cc30272103aec7fd1b401313c</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>ba103728c3ceb2103aec7fd1b40131c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>pass_criteria</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>6207bb1cc30272103aec7fd1b401313d</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>76103728c3ceb2103aec7fd1b40131c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>active</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>2e07bb1cc30272103aec7fd1b401313d</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>32103728c3ceb2103aec7fd1b40131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,83 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 15:44:32</sys_created_on>
-            <sys_id>e607bb1cc30272103aec7fd1b401313e</sys_id>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>fa103728c3ceb2103aec7fd1b40131c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 15:44:32</sys_updated_on>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>b6103728c3ceb2103aec7fd1b40131c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>create_tasks</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>72103728c3ceb2103aec7fd1b40131c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_strategy</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>3e103728c3ceb2103aec7fd1b40131c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>f6103728c3ceb2103aec7fd1b40131ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-23 09:52:43</sys_created_on>
+            <sys_id>b2103728c3ceb2103aec7fd1b40131cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_relationship_definition" sys_domain="global" view="Default view">dd4a02a7c3a532103aec7fd1b40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-23 09:52:43</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

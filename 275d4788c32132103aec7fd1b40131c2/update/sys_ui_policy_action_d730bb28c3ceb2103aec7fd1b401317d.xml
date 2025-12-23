@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>assignment_strategy</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-23 09:53:33</sys_created_on>
+        <sys_id>d730bb28c3ceb2103aec7fd1b401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_strategy</sys_name>
+        <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d730bb28c3ceb2103aec7fd1b401317d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-23 09:53:33</sys_updated_on>
+        <table>x_899160_sve_relationship_definition</table>
+        <ui_policy display_value="Show task assignment strategy">0e20f728c3ceb2103aec7fd1b401312c</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=d730bb28c3ceb2103aec7fd1b401317d"/>
+</record_update>
