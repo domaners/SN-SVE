@@ -16,7 +16,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-12-07 12:46:34</sys_updated_on>
         <target_name>x_1780675_config_0_mapped_ci</target_name>
-        <target_scope display_value="Config Drift Management">b910b9a6832032103f8466d0deaad306</target_scope>
+        <target_scope/>
         <target_type>sys_db_object</target_type>
     </sys_scope_privilege>
 </record_update>

@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="50e52f58c38e32103aec7fd1b401318d" label="Validation Result" max_length="40" name="x_899160_sve_validation_result" type="collection">
-        <element label="Compliant CIs found" max_length="40" name="compliant_cis_found" type="integer"/>
-        <element label="Non-compliant CIs found" max_length="40" name="non_compliant_cis_found" type="integer"/>
         <element choice="1" label="Result" max_length="40" name="result" type="string">
             <choice>
-                <element inactive_on_update="false" label="Pass" sequence="0" value="pass"/>
                 <element inactive_on_update="false" label="Fail" sequence="1" value="fail"/>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="pass"/>
             </choice>
         </element>
-        <element label="Date" max_length="40" name="date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Relationship Definition" max_length="32" name="relationship_definition" reference="x_899160_sve_relationship_definition" type="reference"/>
         <element label="Mapped CI" max_length="32" name="mapped_ci" reference="x_899160_sve_mapped_ci" type="reference"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Registered App" max_length="32" name="registered_app" reference="x_899160_sve_registered_app" type="reference"/>
+        <element label="Compliant CIs found" max_length="40" name="compliant_cis_found" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Non-compliant CIs found" max_length="40" name="non_compliant_cis_found" type="integer"/>
+        <element label="Relationship Definition" max_length="32" name="relationship_definition" reference="x_899160_sve_relationship_definition" type="reference"/>
         <index name="index">
             <element name="mapped_ci"/>
         </index>
         <index name="index2">
+            <element name="registered_app"/>
+        </index>
+        <index name="index3">
             <element name="relationship_definition"/>
         </index>
     </element>

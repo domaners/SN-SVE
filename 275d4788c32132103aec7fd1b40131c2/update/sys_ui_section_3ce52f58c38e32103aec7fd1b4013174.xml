@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>51e9ab50c3ce32103aec7fd1b401311e</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>a50ad281836a3610e4b01ed6feaad345</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>d9e96390c3ce32103aec7fd1b401318d</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>a90ad281836a3610e4b01ed6feaad346</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,125 +32,139 @@
             <element>date</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>95e96390c3ce32103aec7fd1b401318e</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>650ad281836a3610e4b01ed6feaad347</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registered_app</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>210ad281836a3610e4b01ed6feaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mapped_ci</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>51e96390c3ce32103aec7fd1b401318f</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>e90ad281836a3610e4b01ed6feaad348</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mapped_ci.ci</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>1de96390c3ce32103aec7fd1b401318f</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>a50ad281836a3610e4b01ed6feaad349</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>d5e96390c3ce32103aec7fd1b4013190</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>610ad281836a3610e4b01ed6feaad34a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>relationship_definition</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>91e96390c3ce32103aec7fd1b4013191</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>2d0ad281836a3610e4b01ed6feaad34a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>result</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>5de96390c3ce32103aec7fd1b4013191</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>e50ad281836a3610e4b01ed6feaad34b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>compliant_cis_found</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>19e96390c3ce32103aec7fd1b4013192</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>a10ad281836a3610e4b01ed6feaad34c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>non_compliant_cis_found</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>d1e96390c3ce32103aec7fd1b4013193</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>6d0ad281836a3610e4b01ed6feaad34c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-22 14:47:06</sys_created_on>
-            <sys_id>9de96390c3ce32103aec7fd1b4013193</sys_id>
+            <sys_created_on>2026-01-18 13:24:59</sys_created_on>
+            <sys_id>290ad281836a3610e4b01ed6feaad34d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_899160_sve_validation_result" sys_domain="global" view="Default view">3ce52f58c38e32103aec7fd1b4013174</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-22 14:47:06</sys_updated_on>
+            <sys_updated_on>2026-01-18 13:24:59</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

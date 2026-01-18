@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_899160_sve_blueprint" element="NULL" name="x_899160_sve_blueprint" parent="NULL" relationship="NULL" sys_domain="global" view="9ecaa172f13322108bb2efdbde054cc6">9e428405c371fa103aec7fd1b4013165</list_id>
+            <list_id display_value="x_899160_sve_blueprint" element="NULL" name="x_899160_sve_blueprint" parent="NULL" relationship="NULL" sys_domain="global" view="ad418062482132108bb2a3a8cef79779">9e428405c371fa103aec7fd1b4013165</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-12-11 19:34:55</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">9ecaa172f13322108bb2efdbde054cc6</view>
+            <view display_value="Reference List" name="sys_ref_list">ad418062482132108bb2a3a8cef79779</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

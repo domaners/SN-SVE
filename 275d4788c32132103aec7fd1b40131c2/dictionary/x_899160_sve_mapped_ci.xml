@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3cbd4bc8c32132103aec7fd1b40131f5" label="Mapped CI" max_length="40" name="x_899160_sve_mapped_ci" type="collection">
-        <element label="CI" max_length="32" name="ci" reference="cmdb_ci" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Depth" max_length="40" name="depth" type="integer"/>
-        <element label="Last validated" max_length="40" name="last_validated" type="glide_date_time"/>
-        <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Business Application" max_length="32" name="business_application" reference="cmdb_ci_business_app" type="reference"/>
+        <element label="Depth" max_length="40" name="depth" type="integer"/>
         <element label="Registered App" max_length="32" name="registered_app" reference="x_899160_sve_registered_app" type="reference"/>
         <element label="Service Instance" max_length="32" name="service_instance" reference="cmdb_ci_service_auto" type="reference"/>
+        <element label="Last validated" max_length="40" name="last_validated" type="glide_date_time"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="CI" max_length="32" name="ci" reference="cmdb_ci" type="reference"/>
         <index name="index">
             <element name="business_application"/>
         </index>

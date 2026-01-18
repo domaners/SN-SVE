@@ -26,7 +26,7 @@ ScheduledUtils.prototype = {
 
             if (regAppGr.ci_retrieval_method == "assoc") {
                 this.retrieveMappedCIsAssoc(regAppGr);
-            } else if (regApp.ci_retrieval_method == "traverse") {
+            } else if (regAppGr.ci_retrieval_method == "traverse") {
                 this.retrieveMappedCIsTraverse(regAppGr);
             }
 
@@ -105,11 +105,13 @@ ScheduledUtils.prototype = {
             else if (relDefinitionsGr.pass_criteria == "all_cis" && cisOfDefinedChildClass > 0 && cisOfUndefinedChildClass == 0)
                 passBlueprintCheck = "pass";
 
-            this.generateValidationResult(mappedCIGr, relDefinitionsGr, cisOfDefinedChildClass, cisOfUndefinedChildClass, passBlueprintCheck);
+            this.generateValidationResult(mappedCIGr, relDefinitionsGr, cisOfDefinedChildClass, cisOfUndefinedChildClass, passBlueprintCheck, registeredAppGr);
 
 			if(passBlueprintCheck == "fail" && relDefinitionsGr.create_tasks == true)
 				this.generateRemediationTasks(mappedCIGr, relDefinitionsGr);
 
+			mappedCIGr.last_validated = new GlideDateTime();
+			mappedCIGr.update();
         }
 
     },
@@ -155,11 +157,12 @@ ScheduledUtils.prototype = {
 		}
 	},
 
-	generateValidationResult: function(mappedCIGr, relDefinitionsGr, cisOfDefinedChildClass, cisOfUndefinedChildClass, passBlueprintCheck) {
+	generateValidationResult: function(mappedCIGr, relDefinitionsGr, cisOfDefinedChildClass, cisOfUndefinedChildClass, passBlueprintCheck, registeredAppGr) {
 
 		var resultGr = new GlideRecord("x_899160_sve_validation_result");
 		resultGr.initialize();
 		resultGr.date = new GlideDate();
+		resultGr.registered_app = registeredAppGr.sys_id+'';
 		resultGr.mapped_ci = mappedCIGr.sys_id+'';
 		resultGr.result = passBlueprintCheck;
 		resultGr.relationship_definition = relDefinitionsGr.sys_id+'';
@@ -181,6 +184,8 @@ ScheduledUtils.prototype = {
         assocGr.addQuery("service_id", regApp.service_instance + '');
         assocGr.query();
 
+		gs.info("AND Assocs retrieved: " + assocGr.getRowCount());
+
         while (assocGr.next()) {
             this.mappedCIArr.push({
                 "ci": assocGr.ci_id + '',
@@ -191,6 +196,8 @@ ScheduledUtils.prototype = {
                 "last_discovered": lastDiscovered
             });
         }
+
+		gs.info("AND Mapped CI Array: " + this.mappedCIArr.length);
 
     },
 
@@ -234,13 +241,13 @@ ScheduledUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-07 12:40:15</sys_created_on>
         <sys_id>fdec75ebc32532103aec7fd1b4013159</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>ScheduledUtils</sys_name>
         <sys_package display_value="SVE" source="x_899160_sve">275d4788c32132103aec7fd1b40131c2</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="SVE">275d4788c32132103aec7fd1b40131c2</sys_scope>
         <sys_update_name>sys_script_include_fdec75ebc32532103aec7fd1b4013159</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-23 10:58:29</sys_updated_on>
+        <sys_updated_on>2026-01-18 13:28:08</sys_updated_on>
     </sys_script_include>
 </record_update>
